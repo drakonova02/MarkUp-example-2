@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Speaky school</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7fd22c6bf7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div id="top"  class="wrapper">
+        <header class="header center">
+            <div class="header-holder">
+                <strong class="logo"><a href="#" class="logo-link">Speaky school</a></strong>
+                <ul class="drop-down">
+                    <li class="drop-down-name"><span>Обучение детей</span>
+                        <ul class="drop-down-child">
+                        <li class="drop-down-item"><a href="#">Онлайн-занятия</a></li>
+                        <li class="drop-down-item"><a href="#">Занятия в клубе</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down-name no-item"><a href="#">Обучение взрослых</a></li>
+                </ul>
+            </div>
+            <div class="header-holder">
+                <ul class="icon-box">
+                    <li class="icon"><a href="#" class="icons-link icon-facebook"></a></li>
+                    <li class="icon"><a href="#" class="icons-link icon-inst"></a></li>
+                    <li class="icon"><a href="#" class="icons-link icon-whats-up"></a></li>
+                    <li class="icon vk-icon"><a href="#" class="link-icon"></a></li>
+                </ul>
+                <strong class="icon"><a href="tel:+000000" class="icons-link icon-phone"></a></strong>
+            </div>
+        </header>
+        <main class="main center">
+            <section class="intro">
+                <div class="intro-holder">
+                    <div class="intro-box">
+                        <h1 class="heading">ШКОЛА ИНОСТРАННЫХ ЯЗЫКОВ ДЛЯ ВСЕЙ СЕМЬИ</h1>
+                        <button id="lesson" type="button" class="button">Пробное занятие</button>
+                    </div>
+                </div>
+                <ul class="intro-list-teach">
+                    <li class="intro-item intro-adult"><a class="intro-link" href="#"><div class="intro-text"><span class="intro-word"> ОБУЧЕНИЕ</span> <span class="intro-word">ВЗРОСЛЫХ</span></div></a></li>
+                    <li class="intro-item intro-child"><a class="intro-link" href="#"><div class="intro-text"><span class="intro-word">ОБУЧЕНИЕ </span><span class="intro-word">ДЕТЕЙ</span></div></a></li>
+                </ul>
+            </section>
+            <section class="lang center">
+                <div class="lang-holder">
+                    <h2 class="title orange-bg">У НАС ВЫ МОЖЕТЕ ВЫУЧИТЬ:</h2>
+                    <ul class="lang-list">
+                        <li class="lang-item eng-lang">Английский</li>
+                        <li class="lang-item germ-lang">Немецкий</li>
+                        <li class="lang-item span-lang">Испанский</li>
+                        <li class="lang-item french-lang">Французкий</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="info center">
+                <div class="info-text">
+                    <h2 class="title orange-bg">ПОЧЕМУ SPEAKY SCHOOL?</h2>
+                    <p class="text">Ежегодно наши ученики успешно сдают международные экзамены, поступают в престижные российские и европейские учебные заведения.</p>
+                    <p class="text">В нашей школе обучаются дети и родители, школьники и взрослые, бабушки и дедушки!</p>
+                </div>
+                <ul class="info-list">
+                    <li class="info-item">Преподаватели – носители языка</li>
+                    <li class="info-item">Все занятия исключительно на выбранном языке</li>
+                    <li class="info-item">Онлайн и офлайн занятия</li>
+                    <li class="info-item">Персональная программа обучения</li>
+                    <li class="info-item">Индивидуальные и групповые занятия</li>
+                    <li class="info-item">Аккредитация международной организацией Edexel</li>
+                </ul>
+            </section>
+            <form action="#" id="form1" class="center-holder trial">
+                <div class="trial-holder">
+                    <h2 class="title">ЗАПИСАТЬСЯ НА ПРОБНОЕ ЗАНЯТИЕ</h2>
+                    <div class="tabs">
+                        <a href="#" data-tab="1" class="tab tab-active">Взрослые</a>
+                        <a href="#" data-tab="2" class="tab">Дети и подростки</a>
+                    </div>
+                    <div class="content-tabs">
+                        <div data-tab-content="1" class="tab-pane tab-pane-active">
+                            <select class="lang-form" data-jcf='{"wrapNative": false}'>
+                                <option value="Английский язык" class="item-lang-form">Английский язык</option>
+                                <option value="Немецкий язык" class="item-lang-form">Немецкий язык</option>
+                                <option value="Испанский язык" class="item-lang-form">Испанский язык</option>
+                                <option value="Французкий язык" class="item-lang-form">Французкий язык</option>
+                            </select>
+                            <input name="lesson" type="radio" id="online" class="radio-form">
+                            <label for="online" class="lab-rad">Онлайн-занятия</label>
+                            <input name="lesson" type="radio" id="offline" class="radio-form">
+                            <label for="offline" class="lab-rad">Занятия в клубе</label>
+                            <div class="small-elem-form">
+                                <input type="text" class="form-input jcf-select" placeholder="Имя">
+                                <input type="tel" class="form-input jcf-select" placeholder="Телефон">  
+                            </div>
+                            <input type="email" class="jcf-select" placeholder="Почта">
+                        </div>
+                        <div data-tab-content="2" class="tab-pane">
+                            <select class="lang-form" data-jcf='{"wrapNative": false}'>
+                                <option value="Английский язык" class="item-lang-form">Английский язык</option>
+                                <option value="Немецкий язык" class="item-lang-form">Немецкий язык</option>
+                                <option value="Испанский язык" class="item-lang-form">Испанский язык</option>
+                                <option value="Французкий язык" class="item-lang-form">Французкий язык</option>
+                            </select>
+                            <input name="lesson" type="radio" id="online02" class="radio-form">
+                            <label for="online02" class="lab-rad">Онлайн-занятия</label>
+                            <input name="lesson" type="radio" id="offline02" class="radio-form">
+                            <label for="offline02" class="lab-rad">Занятия в клубе</label>
+                            <div class="small-elem-form">
+                                <input type="text" class="form-input jcf-select" placeholder="Имя родителя">
+                                <input type="tel" class="form-input jcf-select" placeholder="Телефон">  
+                                <input type="text" class="form-input jcf-select" placeholder="Имя ребёнка">
+                                <input type="number" class="form-input jcf-select" placeholder="Возраст ребёнка">
+                            </div>
+                            <input type="email" class="jcf-select" placeholder="Почта">
+                        </div>
+                    </div>
+                    <button type="submit" class="button">Отправить</button>
+                </div>
+            </form>
+            <section class="center-holder">
+                <article class="for-child">
+                    <img src="images/img14.png" alt="picture" class="picture">
+                    <div class="text-col">
+                        <h2 class="title orange-bg">ДЛЯ ДЕТЕЙ</h2>
+                        <div class="lists">
+                            <div class="list-text">
+                                <span class="name">Онлайн</span>
+                                <ul class="for-list">
+                                    <li class="for-item">адаптированная под ребёнка программа</li>
+                                    <li class="for-item">гибкое расписание</li>
+                                    <li class="for-item">занятия в привычной обстановке</li>
+                                    <li class="for-item">динамичные занятия по 30-40 минут</li>
+                                </ul>
+                            </div>
+                            <div class="list-text">
+                                <span class="name">Офлайн</span>
+                                <ul class="for-list">
+                                    <li class="for-item">занятия в нашей школе в г. Троицке</li>
+                                    <li class="for-item">удобное расписание</li>
+                                    <li class="for-item">живое общение со сверстниками</li>
+                                    <li class="for-item">увлекательные занятия в небольших группах</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="for-adult">
+                    <img src="images/img13.png" alt="picture" class="picture">
+                    <div class="text-col">
+                        <h2 class="title orange-bg">ДЛЯ ВЗРОСЛЫХ</h2>
+                        <div class="lists">
+                            <div class="list-text">
+                                <span class="name">Офлайн</span>
+                                <ul class="for-list">
+                                    <li class="for-item">занятия в нашей школе в г. Троицке</li>
+                                    <li class="for-item">удобное расписание</li>
+                                    <li class="for-item">уютная атмосфера</li>
+                                    <li class="for-item">индивидуальные или групповые занятия</li>
+                                </ul>
+                            </div>
+                            <div class="list-text">
+                                <span class="name">Онлайн</span>
+                                <ul class="for-list">
+                                    <li class="for-item">занятия из любой точки в удобное время</li>
+                                    <li class="for-item">персональная программа</li>
+                                    <li class="for-item">гибкое расписание</li>
+                                    <li class="for-item">преодоление языкового барьера</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="study">
+                <h2 class="title orange-bg">МЫ ИСПОЛЬЗУЕМ SMART-ПОДХОД В ОБУЧЕНИИ</h2>
+                <p class="text study-subtitle">Чтобы обучение было максимально эффективным, мы составляем индивидуальную карту обучения: ваша исходная точка, конечный результат, срок достижения этого результата. И будем вместе идти к этим целям</p>
+                <ul class="smart-box">
+                    <li class="smart-item">
+                        <span class="smart-item-text">specific</span>
+                        <h3 class="name">Конкретная цель</h3>
+                    </li>
+                    <li class="smart-item">
+                        <span class="smart-item-text">measurable</span>
+                        <h3 class="name">Критерии успеха</h3>
+                    </li>
+                    <li class="smart-item">
+                        <span class="smart-item-text">achievable</span>
+                        <h3 class="name">Достижимая цель</h3>
+                    </li>
+                    <li class="smart-item">
+                        <span class="smart-item-text">relevant</span>
+                        <h3 class="name">Цель, имеющая значение</h3>
+                    </li>
+                    <li class="smart-item">
+                        <span class="smart-item-text">time bound</span>
+                        <h3 class="name">Четкие сроки</h3>
+                    </li>
+                </ul>
+                <div class="example">
+                    <img src="images/img15.png" alt="picture" class="image">
+                    <div>
+                        <h3 class="name">Пример</h3>
+                        <p class="text study-text">Я учил английский в школе, но все забыл. Сейчас я хочу работать в международной компании, успешно пройти интервью и затем свободно общаться с коллегами. </p>
+                    </div>
+                </div>
+                <ul class="study-list">
+                    <li class="study-item">
+                        <h3 class="name">Определяем текущий уровень и ставим цель</h3>
+                        <p class="text">Улучшение языковых навыков до уровня свободного общения в определенной специфике (бизнес-английский).</p>
+                    </li>
+                    <li class="study-item">
+                        <h3 class="name">Критерии успеха</h3>
+                        <p class="text">Определяем даты промежуточных итогов, где оценим успехи по всем скилам. Что лично для вас будет являться успехом? Когда вы сможете свободно выразить мысль? Не будете путать слова? Напишите самостоятельно имейл?</p>
+                    </li>
+                    <li class="study-item">
+                        <h3 class="name">Достижимая цель</h3>
+                        <p class="text">Если мы определили стартовый уровень как Beginner, значит наша реальная цель в короткий срок – Pre-Intermediate</p>
+                    </li>
+                    <li class="study-item">
+                        <h3 class="name">Имеющая значение цель</h3>
+                        <p class="text">Что лично для вас изменится с появлением языковой компетенции?</p>
+                    </li>
+                    <li class="study-item">
+                        <h3 class="name">Четкие сроки</h3>
+                        <p class="text">Когда вы хотите достигнуть этого уровня?</p>
+                    </li>
+                </ul>
+            </section>
+            <form action="#" class="center-holder trial">
+                <div class="trial-holder">
+                    <h2 class="title">ЗАПИСАТЬСЯ НА ПРОБНОЕ ЗАНЯТИЕ</h2>
+                    <div class="tabs">
+                        <a href="#" data-tab="1" class="tab tab-active">Взрослые</a>
+                        <a href="#" data-tab="2" class="tab">Дети и подростки</a>
+                    </div>
+                    <div class="content-tabs">
+                        <div data-tab-content="1" class="tab-pane tab-pane-active">
+                            <select class="lang-form" data-jcf='{"wrapNative": false}'>
+                                <option value="Английский язык" class="item-lang-form">Английский язык</option>
+                                <option value="Немецкий язык" class="item-lang-form">Немецкий язык</option>
+                                <option value="Испанский язык" class="item-lang-form">Испанский язык</option>
+                                <option value="Французкий язык" class="item-lang-form">Французкий язык</option>
+                            </select>
+                            <input name="lesson" type="radio" id="online03" class="radio-form">
+                            <label for="online03" class="lab-rad">Онлайн-занятия</label>
+                            <input name="lesson" type="radio" id="offline03" class="radio-form">
+                            <label for="offline03" class="lab-rad">Занятия в клубе</label>
+                            <div class="small-elem-form">
+                                <input type="text" class="form-input jcf-select" placeholder="Имя">
+                                <input type="tel" class="form-input jcf-select" placeholder="Телефон">  
+                            </div>
+                            <input type="email" class="jcf-select" placeholder="Почта">
+                        </div>
+                        <div data-tab-content="2" class="tab-pane">
+                            <select class="lang-form" data-jcf='{"wrapNative": false}'>
+                                <option value="Английский язык" class="item-lang-form">Английский язык</option>
+                                <option value="Немецкий язык" class="item-lang-form">Немецкий язык</option>
+                                <option value="Испанский язык" class="item-lang-form">Испанский язык</option>
+                                <option value="Французкий язык" class="item-lang-form">Французкий язык</option>
+                            </select>
+                            <input name="lesson" type="radio" id="online04" class="radio-form">
+                            <label for="online04" class="lab-rad">Онлайн-занятия</label>
+                            <input name="lesson" type="radio" id="offline04" class="radio-form">
+                            <label for="offline04" class="lab-rad">Занятия в клубе</label>
+                            <div class="small-elem-form">
+                                <input type="text" class="form-input jcf-select" placeholder="Имя родителя">
+                                <input type="tel" class="form-input jcf-select" placeholder="Телефон">  
+                                <input type="text" class="form-input jcf-select" placeholder="Имя ребёнка">
+                                <input type="number" class="form-input jcf-select" placeholder="Возраст ребёнка">
+                            </div>
+                            <input type="email" class="jcf-select" placeholder="Почта">
+                        </div>
+                    </div>
+                    <button type="submit" class="button">Отправить</button>
+                </div>
+            </form>
+            <section class="slide">
+                <h2 class="title orange-bg">ИСТОРИЯ РАЗВИТИЯ SPEAKY SCHOOL</h2>
+                <div class="years-line">
+                    <input checked id="2016" name="slides" type="radio" class="radio-slide">
+                    <label onclick="Open(0)" for="2016" class="lab-slide">2016</label>
+                    <input id="2017" name="slides" type="radio" class="radio-slide">
+                    <label onclick="Open(1)" for="2017" class="lab-slide">2017</label>
+                    <input id="2018" name="slides" type="radio" class="radio-slide">
+                    <label onclick="Open(2)" for="2018" class="lab-slide">2018</label>
+                    <input id="2019" name="slides" type="radio" class="radio-slide">
+                    <label onclick="Open(3)" for="2019" class="lab-slide">2019</label>
+                    <input id="2020" name="slides" type="radio" class="radio-slide">
+                    <label onclick="Open(4)" for="2020" class="lab-slide">2020</label>
+                </div>
+                <div class="content-slide">
+                    <div class="slides">
+                        <img src="images/img16.png" alt="picture" class="pic-slide">
+                        <div class="slide-text">
+                            <h2 class="title">2016</h2>
+                            <p class="text">Открытие языковых лагерей для взрослых и детей</p>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <img src="images/img16.png" alt="picture" class="pic-slide">
+                        <div class="slide-text">
+                            <h2 class="title">2017</h2>
+                            <p class="text">Открытие языковых лагерей для взрослых и детей</p>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <img src="images/img16.png" alt="picture" class="pic-slide">
+                        <div class="slide-text">
+                            <h2 class="title">2018</h2>
+                            <p class="text">Открытие языковых лагерей для взрослых и детей</p>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <img src="images/img16.png" alt="picture" class="pic-slide">
+                        <div class="slide-text">
+                            <h2 class="title">2019</h2>
+                            <p class="text">Открытие языковых лагерей для взрослых и детей</p>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <img src="images/img16.png" alt="picture" class="pic-slide">
+                        <div class="slide-text">
+                            <h2 class="title">2020</h2>
+                            <p class="text">Открытие языковых лагерей для взрослых и детей</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-holder">
+                <div class="footer-container">
+                    <div class="first-box">
+                        <h3 class="name">Иностранные языки</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-link">Для взрослых онлайн</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Для взрослых офлайн</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Для детей онлайн</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Для детей офлайн</a></li>
+                        </ul>
+                    </div>
+                    <div class="middle-boxes">
+                        <strong class="logo"><a id="logo-footer" href="#top" class="logo-link">Speaky school</a></strong>
+                        <ul class="icon-box">
+                            <li class="icon"><a href="#" class="icons-link icon-facebook"></a></li>
+                            <li class="icon"><a href="#" class="icons-link icon-inst"></a></li>
+                            <li class="icon"><a href="#" class="icons-link icon-whats-up"></a></li>
+                            <li class="icon vk-icon"><a href="#" class="link-icon"></a></li>
+                        </ul>
+                        <button type="button" class="button">Онлайн-оплата</button>
+                    </div>
+                    <div class="last-box">
+                        <h3 class="name">Контакты</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="tel:+74957237515" class="footer-link">+7 (495) 723-75-15</a></li>
+                            <li class="footer-item"><a href="mail:info@speaky.school" class="footer-link">info@speaky.school</a></li>
+                            <li class="footer-item">108840, Россия, г.&nbsp;Москва, г.&nbsp;Троицк, Троицкий бульвар, 6</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright-holder">
+                    <span>&copy; 2021 Speaky school. Все права защищены.</span>
+                    <span>Design by @arinkob</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/jcf.js"></script>
+    <script src="js/jcf.select.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
